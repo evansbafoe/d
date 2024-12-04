@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evans Bafoe | Graphic Designer & Web Developer</title>
+    <title>Evans Bafoe  | Graphic Designer & Web Developer</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         /* Custom Styles */
-
         body {
-            transition: background-color 0.5s, color 0.5s;
+            
+             background-color: white;
         }
 
         /* Navbar */
-
         .navbar {
             justify-content: center;
             color: black;
+            
         }
-
         .navbar-brand {
             font-weight: bold;
             font-size: 1.5rem;
         }
 
+        
+        
         .background-contain {
             position: relative;
             width: 100%;
             height: 500px;
-            background-image: url('2.jpg');
-            /* Replace with your image path */
+            background-image:  url("https://i.ibb.co/QDj4b6c/Website-Designing-Banner.png"); /* Replace with your image path */
             background-size: cover;
             background-position: center;
             display: flex;
             align-items: center;
-            overflow: hidden;
-            /* Hide overflowing content */
-            color: white;
+           
+            overflow: hidden; /* Hide overflowing content */
+            color:white;
+            
+            
         }
 
         .overlay {
@@ -47,23 +48,24 @@
             left: 0;
             width: 100%;
             height: 500px;
-            background-color: rgb(0, 0, 0, 0.7);
-            /* Adjust opacity and color */
+            background-color: rgb(0, 0, 0, 0.7); /* Adjust opacity and color */
         }
+
+         
 
         .visible {
-            opacity: 1;
-            /* Show the text */
+            opacity: 1; /* Show the text */
         }
 
-        /* About Section */
+        
+    
 
+        /* About Section */
         .about {
             padding: 4rem 2rem;
         }
 
         /* Service Section */
-
         .service-card {
             transition: box-shadow 0.3s;
         }
@@ -73,13 +75,11 @@
         }
 
         /* Projects Section */
-
         .project-card {
             margin-bottom: 1.5rem;
         }
 
         /* Skills Section */
-
         .skill-btn {
             display: flex;
             align-items: center;
@@ -97,14 +97,12 @@
         }
 
         /* Dark mode */
-
         .dark-mode {
             background-color: #222;
             color: #ddd;
         }
 
         /* Footer */
-
         footer {
             padding: 1.5rem 0;
             background-color: #333;
@@ -113,7 +111,6 @@
         }
 
         /* Chart section */
-
         #chartSection {
             margin-top: 50px;
         }
@@ -124,7 +121,6 @@
             flex-wrap: wrap;
             margin: 2rem 0;
         }
-
         .custom-container {
             text-align: center;
             margin: 1rem;
@@ -137,28 +133,30 @@
             max-width: 30%;
             transition: transform 0.3s, box-shadow 0.3s;
         }
-
         .custom-container img {
             max-width: 100%;
             height: auto;
             border-radius: 30px;
             margin-bottom: 1rem;
         }
-
         .custom-container:hover {
             transform: translateY(-30px);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             background-color: #f8f9fa;
         }
 
-        .text1 {
-            max-width: 600px;
-            z-index: 1;
-            margin-left: 3%;
+        .text1{
+             max-width: 600px;
+             z-index: 1;
+             margin-left: 3%;
+             
+             
         }
 
         .text1 h3 {
             font-size: 30px;
+            
+
         }
 
         .text1 h1 {
@@ -171,9 +169,10 @@
 
         .text1 p {
             font-size: 25px;
+
         }
 
-        .social {
+        .social{
             display: inline-flex;
             justify-content: center;
             align-items: center;
@@ -186,18 +185,20 @@
             color: #00c0ce;
             text-decoration: none;
             margin: 30px 15px 30px 0;
+
         }
+        
     </style>
 </head>
-
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: rgb(255, 253, 253);">
+     
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top"  style="background-color:#f3eded;" >
         <a class="navbar-brand" href="#">
-            <img src="LOGO.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-top">
+            <img src="https://i.ibb.co/f2NZb4F/IMG-20240805-WA0002.jpg" alt="Logo" width="80" height="80" class="d-inline-block align-text-top">
         </a>
-        <a class="navbar-brand" href="#">Quarme Israel</a>
+        <a class="navbar-brand" href="#">Bafoe Evans</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -208,69 +209,68 @@
                 <li class="nav-item"><a class="nav-link" href="#projects" style="color: black; font-weight: bolder;">PROJECTS</a></li>
                 <li class="nav-item"><a class="nav-link" href="#skills" style="color: black; font-weight: bolder;">SKILLS</a></li>
                 <li class="nav-item"><a class="nav-link" href="#vlogs" style="color: black; font-weight: bolder;">VLOGS</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://www.google.com/search?q=belykweb+solutions&rlz=1C1JZAP_enGH1091GH1091&oq=b&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRhAMgYIAhBFGDkyBggDECMYJzIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPTIGCAcQRRg80gEIMTM3MWowajSoAgCwAgE&sourceid=chrome&ie=UTF-8"
-                        style="color: black; font-weight: bolder;">OUR PROFILE</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.google.com/search?q=belykweb+solutions&rlz=1C1JZAP_enGH1091GH1091&oq=b&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRhAMgYIAhBFGDkyBggDECMYJzIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPTIGCAcQRRg80gEIMTM3MWowajSoAgCwAgE&sourceid=chrome&ie=UTF-8" style="color: black; font-weight: bolder;">OUR PROFILE</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact" style="color: black; font-weight: bolder;">CONTACT US</a></li>
-
+                
             </ul>
         </div>
-        <div style="margin-left: 1.5%;">
+        <!--<div style="margin-left: 1.5%;">
             <button class="btn btn-outline-secondary ms-3" onclick="toggleDarkMode()" style="background-color: aquamarine;"><i class="fas fa-moon"></i></button>
-        </div>
-
+        </div>-->
+        
     </nav>
 
-    <div class="background-contain">
-        <!-- Looping text on the left side -->
-        <div class="text1">
-            <br><br><br><br><br>
-            <h3>Hello, It's Me....</h3>
-            <h1>Quarme Israel</h1>
-            <h3>And I'm a <span class="text"></span></h3>
-            <p>With extensive experience of 3 years<br>
-            </p>
-            <div class="social-media-container">
-                <a href="https://web.facebook.com/belykweb.solutions" target="_blank" class="facebook" title="Facebook">
+<div class="background-contain">
+    <!-- Looping text on the left side -->
+    <div class="text1">
+        <br><br><br><br><br>
+        <h3>Hello, It's Me....</h3>
+        <h1>Evans Bafoe</h1>
+        <h3>And I'm a <span class="text"></span></h3>
+        <p>With extensive experience of 3 years<br>
+        </p>
+        <div class="social-media-container">
+            <a href="https://web.facebook.com/belykweb.solutions" target="_blank" class="facebook" title="Facebook">
                 <i class="fab fa-facebook-f"></i>
             </a>
-
-                <!-- YouTube Icon -->
-                <a href="https://www.youtube.com/@belykwebsolutions" target="_blank" class="youtube" title="YouTube">
+        
+            <!-- YouTube Icon -->
+            <a href="https://www.youtube.com/@belykwebsolutions" target="_blank" class="youtube" title="YouTube">
                 <i class="fab fa-youtube"></i>
             </a>
-
-                <!-- Instagram Icon -->
-                <a href="https://www.instagram.com/belykwebsolutions/" target="_blank" class="instagram" title="Instagram">
+        
+            <!-- Instagram Icon -->
+            <a href="https://www.instagram.com/belykwebsolutions/" target="_blank" class="instagram" title="Instagram">
                 <i class="fab fa-instagram"></i>
             </a>
-
-                <!-- TikTok Icon -->
-                <a href="https://www.tiktok.com/@belykwebsolutions" target="_blank" class="tiktok" title="TikTok">
+        
+            <!-- TikTok Icon -->
+            <a href="https://www.tiktok.com/@belykwebsolutions" target="_blank" class="tiktok" title="TikTok">
                 <i class="fab fa-tiktok"></i>
             </a>
-
-                <!-- LinkedIn Icon -->
-                <a href="https://www.linkedin.com/in/belykweb-solutions-b84386250/" target="_blank" class="linkedin" title="LinkedIn">
+        
+            <!-- LinkedIn Icon -->
+            <a href="https://www.linkedin.com/in/belykweb-solutions-b84386250/" target="_blank" class="linkedin" title="LinkedIn">
                 <i class="fab fa-linkedin-in"></i>
             </a>
-            </div>
-
         </div>
-
+        
     </div>
-    <!-- Add the typed.js library link in the src attribute -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   
+</div>
+<!-- Add the typed.js library link in the src attribute -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-    <script>
-        var typed = new Typed(".text", {
-            strings: ["Frontend Developer", "Web Developer", "Graphic Designer"],
-            typeSpeed: 200,
-            backSpeed: 100,
-            loop: true
-        });
-    </script>
+<script>
+  var typed = new Typed(".text", {
+    strings: ["Frontend Developer", "Web Developer", "Graphic Designer"],
+    typeSpeed: 200,
+    backSpeed: 100,
+    loop: true
+  });
+</script>
 
-
+    
 
     <!-- About Section -->
     <div id="about" class="about container">
@@ -278,17 +278,26 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="custom-container">
-                    <img src="my image.jpg" alt="Description of Image 1" width="1500px">
-                    <!-- Replace with your image -->
-                    <a href=" https://wa.me/+233598296093" class="btn btn-primary" target="_blank">Let's Chart</a>
+                    <img src="https://i.ibb.co/JKMw6Dt/309666.png" alt="Description of Image 1" width="100px"> <!-- Replace with your image -->
+                    <a href=" https://wa.me/+233542853424" class="btn btn-primary" target="_blank">Let's Chart</a>
                 </div>
             </div>
             <div class="col-md-8 d-flex align-items-center">
+                
+                <p style="font-size: 20px; font-weight: 10px;"><b style="color: red;">Evans Bafoe</b> 
+                    is a dynamic and talented young man based in Accra, 
+        
+                     With a passion for creativity and technology, he has established himself as a proficient
+                    graphic designer and web developer. His skills extend into the digital marketing realm, 
+                    where he expertly manages Google Business Profiles and creates compelling online presences 
+                    for various businesses.<br><br>
 
-                <p style="font-size: 20px; font-weight: 10px;"><b style="color: red;">Quarme Israel</b> is a dynamic and talented young man based in Accra, currently in his final year as a Computer Science student at Accra Technical University. With a passion for creativity and technology, he has
-                    established himself as a proficient graphic designer and web developer. His skills extend into the digital marketing realm, where he expertly manages Google Business Profiles and creates compelling online presences for various businesses.<br><br>                    In addition to his tech-savvy skills, Quarme is a vlogger who shares insights and knowledge about the industry, making complex concepts accessible to a broader audience. He offers general printing and branding services, helping clients
-                    create memorable visual identities. Driven by a desire to empower others, he conducts master classes in IT, sharing his expertise and inspiring the next generation of tech enthusiasts. With a blend of creativity, technical skills,
-                    and a commitment to education, Quarme Israel is poised to make a significant impact in the digital landscape
+                    In addition to his tech-savvy skills, Bafoe is a vlogger who shares insights and knowledge about the
+                    industry, making complex concepts accessible to a broader audience. He offers general printing and branding 
+                    services, helping clients create memorable visual identities. Driven by a desire to empower others, 
+                    he conducts master classes in IT, sharing his expertise and inspiring the next generation of tech 
+                    enthusiasts. With a blend of creativity, technical skills, and a commitment to education, 
+                    Bafoe Evans is poised to make a significant impact in the digital landscape
                 </p>
             </div>
         </div>
@@ -299,170 +308,169 @@
         <h2 class="text-center">My Services </h2>
         <div class="flex-container">
             <div class="custom-container">
-                <img src="services/graphic.jpg" alt="Description of Image 1" width="110">
-                <!-- Replace with your image -->
+                <img src="https://i.ibb.co/zJFLyLr/Acid-Graphics-illustration-design-sense-of-design-middle.jpg" alt="Description of Image 1" width="110"> <!-- Replace with your image -->
                 <h4>Graphic Design</h4>
-                <p> Logo design | Branding materials (business cards, brochures, flyers) | Social media graphics | Digital and print designs</p>
+                <p> Logo design  |
+                     Company Website |
+                    Website maintenance  |
+                    Digital and print designs</p>
                 <a href="https://www.pinterest.com/belykwebsolutions/" class="btn btn-primary">View More</a>
             </div>
             <div class="custom-container">
-
-                <img src="services/webdev.jpg" alt="Description of Image 2" width="150">
-                <!-- Replace with your image -->
+                
+                <img src="https://i.ibb.co/nfKWVzc/shutterstock-396058687-scaled.jpg" alt="Description of Image 2" width="150"> <!-- Replace with your image -->
                 <h4>Web Development</h4>
-                <p> Website design and development |<br> E-commerce solutions | Responsive design for mobile devices |<br> Website maintenance and updates</p>
+                <p> Website design and development |<br> 
+                    E-commerce solutions  |
+                    Responsive design for mobile devices  |<br>
+                    Website maintenance and updates</p>
                 <a href="https://forms.gle/kqTc2A6Kqrsb3w8L7" class="btn btn-primary">Book a Service</a>
             </div>
             <div class="custom-container">
-
-                <img src="services/digital-marketing.avif" alt="Description of Image 3" width="100">
-                <!-- Replace with your image -->
-                <h4>Digital Marketing</h4>
-                <p> Social media management | Content creation and strategy | Search engine optimization (SEO) | Email marketing campaigns</p>
+                
+                <img src="https://i.ibb.co/NCbP9TX/what-is-sec-system-1024x825.png" alt="Description of Image 3" width="100"> <!-- Replace with your image -->
+                <h4>Security System</h4>
+                <p> Social media management  |
+                    Content creation and strategy  |
+                    Search engine optimization (SEO)  |
+                    Email marketing campaigns</p>
                 <a href="https://forms.gle/kqTc2A6Kqrsb3w8L7" class="btn btn-primary">Book a Service</a>
             </div>
         </div>
         <div class="flex-container">
             <div class="custom-container">
-
-                <img src="services/gn-printing.jpg" alt="Description of Image 1" width="100">
-                <!-- Replace with your image -->
-                <h4>General Printing</h4>
+                
+                <img src="https://i.ibb.co/920Sg0B/1636384964843.png" alt="Description of Image 1" width="100"> <!-- Replace with your image -->
+                <h4>Trainings</h4>
                 <p>
-                    | Business cards | Flyers and brochures | Banners and signage | Custom printing solutions |<br> Binding services | Laminating |<br> Picture Framing |
+                    |  Business cards  |
+                    Flyers and brochures  |
+                    Banners and signage  |
+                    Custom printing solutions  |<br>
+                    Binding services  |  Laminating |<br>
+                    Picture Framing   | 
                 </p>
-                <a href="https://forms.gle/kqTc2A6Kqrsb3w8L7" class="btn btn-primary">Book a service</a>
+                <a href="https://forms.gle/kqTc2A6Kqrsb3w8L7" class="btn btn-primary">Register Now!!!</a>
             </div>
             <div class="custom-container">
-
-                <img src="services/Google-Business-Profile.png" alt="Description of Image 2" width="110">
-                <!-- Replace with your image -->
-                <h4>Google Business Profile</h4>
+                
+                <img src="https://i.ibb.co/hyQxcLW/ab50769246b84e2c0e7553195f46754a.jpg" alt="Description of Image 2" width="110"> <!-- Replace with your image -->
+                <h4>Solar Installation And Maintenance</h4>
                 <p>
-                    Setup and optimization of <br>Google Business Profiles |<br> Regular updates and maintenance | Customer engagement through Google My Business
+                    Setup and optimization of <br>Google Business Profiles  |<br>
+                    Regular updates and maintenance  |
+                    Customer engagement through Google My Business
                 </p>
-                <a href="https://www.google.com/search?q=belykweb+solutions&rlz=1C1JZAP_enGH1091GH1091&oq=b&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRhAMgYIAhBFGDkyBggDECMYJzIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPTIGCAcQRRg80gEIMTM3MWowajSoAgCwAgE&sourceid=chrome&ie=UTF-8"
-                    class="btn btn-primary">View Profile</a>
+                <a href="https://www.google.com/search?q=belykweb+solutions&rlz=1C1JZAP_enGH1091GH1091&oq=b&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRhAMgYIAhBFGDkyBggDECMYJzIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPTIGCAcQRRg80gEIMTM3MWowajSoAgCwAgE&sourceid=chrome&ie=UTF-8" class="btn btn-primary">View Profile</a>
             </div>
             <div class="custom-container">
-
-                <img src="services/IT-Training.jpg" alt="Description of Image 3" width="100">
-                <!-- Replace with your image -->
-                <h4>IT Master Classes</h4>
+                
+                <img src="https://i.ibb.co/S3h6DH7/home-automation-history.jpg" alt="Description of Image 3" width="100"> <!-- Replace with your image -->
+                <h4>Smart Home</h4>
                 <p>
-                    Conducting workshops and training <br> sessions on graphic design | <br> web development | Digital Marketing Topics Mentoring | Coaching aspiring IT Professionals
+                    Home Automation <br> sessions on graphic design | <br> web development | 
+                    Smart door system
+                    Mentoring | Coaching aspiring IT Professionals
                 </p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUs6XDIbAJDFVv0dd17R5cVKHrWSTovR4vGbXE2iHpeRZzuA/viewform" class="btn btn-primary">Register Now!!!</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUs6XDIbAJDFVv0dd17R5cVKHrWSTovR4vGbXE2iHpeRZzuA/viewform" class="btn btn-primary">Book Service</a>
             </div>
         </div>
     </div>
     <br>
-    <hr>
+<hr>
     <!-- Projects Section -->
     <div id="projects" class="container">
         <h2 class="text-center">My Recent Projects</h2>
         <div class="flex-container">
             <div class="custom-container">
-
-                <img src="projects/Bisbec.jpg" alt="Description of Image 1" width="180">
-                <!-- Replace with your image -->
+                
+                <img src="projects/Bisbec.jpg" alt="Description of Image 1" width="180"> <!-- Replace with your image -->
                 <h4>Bisbec Enterprise</h4>
-                <a href="https://bisbecenterprise.com/" class="btn btn-primary" target="_blank">View Website</a>
+                <a href="https://ionautotech.com/" class="btn btn-primary" target="_blank">View Website</a>
             </div>
             <div class="custom-container">
-
-                <img src="projects/access.jpg" alt="Description of Image 2" width="240">
-                <!-- Replace with your image -->
+                
+                <img src="projects/access.jpg" alt="Description of Image 2" width="240"> <!-- Replace with your image -->
                 <h4>Access A Properties</h4>
                 <a href="https://accessaproperties.com/" class="btn btn-primary" target="_blank">View Website</a>
             </div>
             <div class="custom-container">
-
-                <img src="projects/kasa logo.png" alt="Description of Image 3" width="200">
-                <!-- Replace with your image -->
+                
+                <img src="projects/kasa logo.png" alt="Description of Image 3" width="200"> <!-- Replace with your image -->
                 <h4>Kasa Konsultants</h4>
                 <a href="https://kasakonsultants.com/" class="btn btn-primary" target="_blank">View Website</a>
             </div>
         </div>
         <div class="flex-container">
             <div class="custom-container">
-
-                <img src="projects/njc.jpeg" alt="Description of Image 1" width="200">
-                <!-- Replace with your image -->
+                
+                <img src="projects/njc.jpeg" alt="Description of Image 1" width="200"> <!-- Replace with your image -->
                 <h4>NJC</h4>
                 <a href="https://njcquizgh.com/" class="btn btn-primary" target="_blank">View Website</a>
             </div>
             <div class="custom-container">
-
-                <img src="projects/piwc.jpg" alt="Description of Image 2" width="200">
-                <!-- Replace with your image -->
+                
+                <img src="projects/piwc.jpg" alt="Description of Image 2" width="200"> <!-- Replace with your image -->
                 <h4>PIWC Dansoman</h4>
                 <a href="https://piwcdc.org/" class="btn btn-primary" target="_blank">View Website</a>
             </div>
             <div class="custom-container">
-
-                <img src="projects/ps-ahuakese-img.jpg" alt="Description of Image 3" width="200">
-                <!-- Replace with your image -->
+                
+                <img src="projects/ps-ahuakese-img.jpg" alt="Description of Image 3" width="200"> <!-- Replace with your image -->
                 <h4>Pastor Ahuakese</h4>
                 <a href="https://bisbec.online/" class="btn btn-primary" target="_blank">View Website</a>
             </div>
         </div>
         <div class="flex-container">
             <div class="custom-container">
-
-                <img src="projects/richway.jpg" alt="Description of Image 1" width="200">
-                <!-- Replace with your image -->
+                
+                <img src="projects/richway.jpg" alt="Description of Image 1" width="200"> <!-- Replace with your image -->
                 <h4>Richway Cleaning & Engineering Services</h4>
                 <a href="https://richwaycleaning.online/" class="btn btn-primary" target="_blank">View Website</a>
             </div>
             <div class="custom-container">
-
-                <img src="https://ibb.co/60vdw9x" alt="Description of Image 3" width="250">
-                <!-- Replace with your image -->
+                
+                <img src="projects/Hrms.jpeg.jpg" alt="Description of Image 3" width="250"> <!-- Replace with your image -->
                 <h4>HRM System</h4>
                 <a href="" class="btn btn-primary" target="_blank">View Web App</a>
             </div>
             <div class="custom-container">
-
-                <img src="https://ibb.co/60vdw9x" alt="Description of Image 3" width="220">
-                <!-- Replace with your image -->
+                
+                <img src="projects/CACI.jpg" alt="Description of Image 3" width="220"> <!-- Replace with your image -->
                 <h4>CACI Korle-Gonno</h4>
                 <a href="" class="btn btn-primary" target="_blank">View Website</a>
             </div>
             <div class="custom-container">
-
-                <img src="projects/yaven.jpg" alt="Description of Image 2" width="200">
-                <!-- Replace with your image -->
+                
+                <img src="https://i.ibb.co/238bhVQ/vip7.jpg" alt="Description of Image 2" width="200"> <!-- Replace with your image -->
                 <h4>Yaven Heights Hotel</h4>
                 <a href="https://g.co/kgs/dMSW61c" class="btn btn-primary" target="_blank">View Business Profile</a>
             </div>
             <div class="custom-container">
-
-                <img src="projects/Kings architecture.png" alt="Description of Image 3" width="200">
-                <!-- Replace with your image -->
+                
+                <img src="https://i.ibb.co/S3h6DH7/home-automation-history.jpg" alt="Description of Image 3" width="200"> <!-- Replace with your image -->
                 <h4>Kings Architecture</h4>
                 <a href="https://g.co/kgs/WvDwKwr" class="btn btn-primary" target="_blank">View Business Profile</a>
             </div>
             <div class="custom-container">
-
-                <img src="projects/HIWC.jpg" alt="Description of Image 3" width="200">
-                <!-- Replace with your image -->
+                
+                <img src="https://i.ibb.co/zJFLyLr/Acid-Graphics-illustration-design-sense-of-design-middle.jpg" alt="Description of Image 3" width="200"> <!-- Replace with your image -->
                 <h4>HIWC Dansoman</h4>
                 <a href="https://g.co/kgs/GUchSi6" class="btn btn-primary" target="_blank">View Business Profile</a>
             </div>
-
+            
         </div>
-    </div>
+        </div>
 
     </div>
 
 
     <div class="container my-5">
         <h2 class="text-center">My Skills</h2>
-        <div class="d-flex flex-wrap justify-content-center">
-            <div class="p-2">
+        <div class="d-flex flex-wrap justify-content-center" >
+            <div class="p-2" >
                 <button class="btn btn-outline-dark skill-btn"><i class="fab fa-html5"></i> HTML</button>
-            </div>
+            </div> 
             <div class="p-2">
                 <button class="btn btn-outline-dark skill-btn"><i class="fab fa-css3-alt"></i> CSS</button>
             </div>
@@ -511,7 +519,7 @@
             <div class="p-2">
                 <button class="btn btn-outline-dark skill-btn"><i class="fas fa-fire"></i> Firebase</button>
             </div>
-
+            
 
         </div>
     </div>
@@ -521,13 +529,13 @@
     <div id="skills" class="container" id="chartSection">
         <h2 class="text-center">My Achievements</h2>
         <canvas id="skillsChart"></canvas>
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="../../cdn.jsdelivr.net/npm/chart.js"></script>
         <script>
             const ctx = document.getElementById('skillsChart').getContext('2d');
             const skillsChart = new Chart(ctx, {
                 type: 'bar',
                 data: {
-                    labels: ['Graphic Design', 'HTML', 'CSS', 'JavaScript', 'PHP', 'Laravel', 'React', 'Node.js', 'Next.js', 'Oracle Apex', 'Git', 'Excel', 'SASS', 'Tailwind CSS', 'SQL Database', 'Firebase', 'Google Business Profile'],
+                    labels: ['Graphic Design', 'HTML', 'CSS', 'JavaScript', 'PHP', 'Laravel', 'React', 'Node.html', 'Next.html', 'Oracle Apex', 'Git', 'Excel', 'SASS', 'Tailwind CSS', 'SQL Database','Firebase', 'Google Business Profile'],
                     datasets: [{
                         label: 'Skill Level',
                         data: [75, 90, 70, 50, 50, 60, 50, 40, 60, 50, 70, 75, 80, 60, 70, 60, 90], // Adjusted skill levels
@@ -579,44 +587,38 @@
                 }
             });
         </script>
-
+        
     </div>
-    <br>
+<br>
     <!-- Vlogs Section -->
     <div id="vlogs" class="container" style="justify-content: center;">
         <h2 class="text-center">My Vlogs</h2>
         <hr>
-        <center>
-            <div class="row">
-
-                <div class="custom-container">
-
-                    <iframe width="210" height="300" src="https://www.youtube.com/embed/QM_GeRqtDMM" style="border-radius: 20px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
-                        allowfullscreen></iframe>
-                    <p>Belykweb Solutions presenting their website project at PIWC Dansoman presbytery meeting</p>
-                    <a href="https://www.youtube.com/@belykwebsolutions" class="btn btn-primary">Our Channel</a>
-                </div>
-                <div class="custom-container">
-                    <iframe width="210" height="315" src="https://www.youtube.com/embed/8pVsQcxDTww" style="border-radius: 20px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
-                        allowfullscreen></iframe>
-                    <p>Belykweb Solutions developed PIWC Dansoman website</p>
-                    <hr>
-                    <a href="https://www.youtube.com/@belykwebsolutions" class="btn btn-primary">Our Channel</a>
-                </div>
-                <div class="custom-container">
-                    <iframe width="210" height="310" src="https://www.youtube.com/embed/xWbpyOXmcKc" style="border-radius: 20px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
-                        allowfullscreen></iframe>
-                    <p>Belykweb Solutions presenting their website project at CACI Korle-Gonno, Central</p>
-                    <a href="https://www.youtube.com/@belykwebsolutions" class="btn btn-primary">Our Channel</a>
-                </div>
-                <br>
+        <center> <div class="row">
+            
+            <div class="custom-container">
+                
+                <iframe width="210" height="300" src="https://www.youtube.com/embed/QM_GeRqtDMM" style="border-radius: 20px;"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Belykweb Solutions presenting their website project at PIWC Dansoman presbytery meeting</p>
+                <a href="https://www.youtube.com/@belykwebsolutions" class="btn btn-primary">Our Channel</a>
             </div>
-        </center>
+            <div class="custom-container">
+                <iframe width="210" height="315" src="https://www.youtube.com/embed/8pVsQcxDTww" style="border-radius: 20px;"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Belykweb Solutions developed PIWC Dansoman website</p><hr>
+                <a href="https://www.youtube.com/@belykwebsolutions" class="btn btn-primary">Our Channel</a>
+            </div>
+            <div class="custom-container">
+                <iframe width="210" height="310" src="https://www.youtube.com/embed/xWbpyOXmcKc" style="border-radius: 20px;"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Belykweb Solutions presenting their website project at CACI Korle-Gonno, Central</p>
+                <a href="https://www.youtube.com/@belykwebsolutions" class="btn btn-primary">Our Channel</a>
+            </div>
+            <br>
+        </div></center>
     </div>
 
     <br>
     <style>
-        .counter-container {
+           .counter-container {
             text-align: center;
         }
 
@@ -628,6 +630,7 @@
 
         .label {
             font-size: 1.2rem;
+           
             color: #555;
         }
 
@@ -641,14 +644,12 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
-        .contact-container,
-        .map-container {
+        .contact-container, .map-container {
             flex: 1;
             padding: 20px;
         }
 
         /* Contact section styling */
-
         .contact-container {
             background-color: #ffffff;
             display: flex;
@@ -682,13 +683,11 @@
 
         .contact-container button:hover {
             background-color: #555;
-            transform: scale(1.5);
-            /* Slightly enlarges icon on hover */
-            box-shadow: 0 0 30px #00eeff;
+            transform: scale(1.5); /* Slightly enlarges icon on hover */
+    box-shadow: 0 0 30px #00eeff;
         }
 
         /* Map section styling */
-
         .map-container {
             background-color: #f9f9f9;
             padding: 20px;
@@ -701,18 +700,17 @@
         }
 
         /* Responsive adjustments */
-
         @media (max-width: 610px) {
             .main-container {
                 flex-direction: column;
             }
+
             .map-container {
                 height: 300px;
             }
         }
 
         /* Basic styling for the container and icons */
-
         .social-media-container {
             display: flex;
             justify-content: center;
@@ -722,8 +720,7 @@
 
         .social-media-container a {
             text-decoration: none;
-            color: #fff;
-            /* Default icon color */
+            color: #fff; /* Default icon color */
             font-size: 24px;
             width: 40px;
             height: 40px;
@@ -735,51 +732,33 @@
         }
 
         .social-media-container a:hover {
-            transform: scale(2.1);
-            /* Slightly enlarges icon on hover */
+            transform: scale(2.1); /* Slightly enlarges icon on hover */
             box-shadow: 0 0 30px #00eeff;
         }
 
         /* Specific background colors for each icon */
-
-        .facebook {
-            background-color: #3b5998;
-        }
-
-        .youtube {
-            background-color: #FF0000;
-        }
-
-        .instagram {
-            background-color: #e4405f;
-        }
-
-        .tiktok {
-            background-color: #000;
-        }
-
-        /* TikTok default color */
-
-        .linkedin {
-            background-color: #0077b5;
-        }
+        .facebook { background-color: #3b5998; }
+        .youtube { background-color: #FF0000; }
+        .instagram { background-color: #e4405f; }
+        .tiktok { background-color: #000; } /* TikTok default color */
+        .linkedin { background-color: #0077b5; }
     </style>
-
+   
     <!-- Profile Section -->
     <div class="counter-container">
         <h3 class="label">Projects Completed</h3>
         <div id="counter">0</div>
-
+        
     </div>
 
-    <style>
-        #counter {
+     <style>
+          #counter {
             font-size: 2em;
             font-weight: bold;
             text-align: center;
             margin-top: 20px;
         }
-    </style>
+     </style>
 
     <script>
         // Counter animation function
@@ -801,69 +780,67 @@
 
     <hr>
     <center>
-        <div class="main-container">
+        <div class="main-container" >
             <!-- Contact Us Container -->
             <div class="contact-container">
                 <h2 id="contact">Contact Us</h2>
                 <form>
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" placeholder="Your name">
-
+                    
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" placeholder="Your email">
-
+                    
                     <label for="message">Message</label>
                     <textarea id="message" name="message" rows="4" placeholder="Your message"></textarea>
-
+                    
                     <button type="submit">Send Message</button>
                 </form>
             </div>
-
+        
             <!-- Location Map Container -->
             <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15884.487493745535!2d-0.2702122!3d5.5489441!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf974f34201c41%3A0x8856e1eb231afc39!2sBelykweb%20Solutions!5e0!3m2!1sen!2sgh!4v1730246231034!5m2!1sen!2sgh"
-                    width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15884.487493745535!2d-0.2702122!3d5.5489441!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf974f34201c41%3A0x8856e1eb231afc39!2sBelykweb%20Solutions!5e0!3m2!1sen!2sgh!4v1730246231034!5m2!1sen!2sgh" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
             </div>
-        </div>
-    </center>
+        </div></center>
     <br>
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Quarme Israel. All Rights Reserved.</p>
+        <p>&copy; 2024 iontechweb solutions. All Rights Reserved.</p>
         <div class="social-media-container">
             <!-- Facebook Icon -->
             <a href="https://web.facebook.com/belykweb.solutions" target="_blank" class="facebook" title="Facebook">
                 <i class="fab fa-facebook-f"></i>
             </a>
-
+        
             <!-- YouTube Icon -->
             <a href="https://www.youtube.com/@belykwebsolutions" target="_blank" class="youtube" title="YouTube">
                 <i class="fab fa-youtube"></i>
             </a>
-
+        
             <!-- Instagram Icon -->
             <a href="https://www.instagram.com/belykwebsolutions/" target="_blank" class="instagram" title="Instagram">
                 <i class="fab fa-instagram"></i>
             </a>
-
+        
             <!-- TikTok Icon -->
             <a href="https://www.tiktok.com/@belykwebsolutions" target="_blank" class="tiktok" title="TikTok">
                 <i class="fab fa-tiktok"></i>
             </a>
-
+        
             <!-- LinkedIn Icon -->
             <a href="https://www.linkedin.com/in/belykweb-solutions-b84386250/" target="_blank" class="linkedin" title="LinkedIn">
                 <i class="fab fa-linkedin-in"></i>
             </a>
         </div>
-
+        
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+    <script src="../../code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="../../cdn.jsdelivr.net/npm/%40popperjs/core%402.9.3/dist/umd/popper.min.js"></script>
+    <script src="../../stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
     <script>
         // Dark Mode Toggle
         function toggleDarkMode() {
@@ -871,26 +848,26 @@
         }
 
         // Target count and speed
-        const targetCount = 100;
-        const counterElement = document.getElementById("projectCounter");
-        let count = 0;
+    const targetCount = 100;
+    const counterElement = document.getElementById("projectCounter");
+    let count = 0;
 
-        // Speed of the counter animation in milliseconds
-        const speed = 50;
+    // Speed of the counter animation in milliseconds
+    const speed = 50;
 
-        // Function to update counter
-        function updateCounter() {
-            count++;
-            counterElement.textContent = count;
+    // Function to update counter
+    function updateCounter() {
+        count++;
+        counterElement.textContent = count;
 
-            // Continue incrementing until we reach targetCount
-            if (count < targetCount) {
-                setTimeout(updateCounter, speed);
-            }
+        // Continue incrementing until we reach targetCount
+        if (count < targetCount) {
+            setTimeout(updateCounter, speed);
         }
+    }
 
-        // Start the counter animation
-        updateCounter();
+    // Start the counter animation
+    updateCounter();
     </script>
 </body>
 
